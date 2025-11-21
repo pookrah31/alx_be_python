@@ -1,5 +1,5 @@
 def display_menu():
-    print("\n--- Shopping List Manager ---")
+    print(" Shopping List Manager")
     print("1. Add Item")
     print("2. Remove Item")
     print("3. View List")
@@ -10,7 +10,7 @@ def main():
     
     while True:
         display_menu()
-        choice = input("Enter your choice: ").strip()
+        choice = input("Enter your choice: ")
 
         if choice == '1':
             item = input("Enter item to add: ").strip()
