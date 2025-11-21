@@ -13,7 +13,7 @@ def main():
         choice = input("Enter your choice: ")
 
         if choice == '1':
-            item = input("Enter item to add: ")
+            item = input("Enter the item to add: ")
             if item:
                 shopping_list.append(item)
                 print(f"'{item}' has been added to your list.")
@@ -21,7 +21,7 @@ def main():
                 print("Item name cannot be empty.")
         
         elif choice == '2':
-            item = input("Enter item to remove: ")
+            item = input("Enter the item to remove: ")
             if item in shopping_list:
                 shopping_list.remove(item)
                 print(f"'{item}' has been removed from your list.")
